@@ -1,0 +1,181 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend {
+  vertical-align: baseline;
+  font-family: inherit;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  outline: 0;
+  padding: 0;
+  margin: 0;
+  /* border: 0; */
+}
+/* remember to define focus styles! */
+:focus {
+  outline: 0;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+  border: 0px solid grey;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.nav_a {
+  display: inline-block;
+  padding: 0.5rem 2rem;
+  margin: 2% 10%;
+  border-radius: 10%;
+  border: none;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.nav_a:nth-child(1) {
+  background-color: #ff764e;
+}
+
+.nav_a:nth-child(2) {
+  background-color: #5ed3eb;
+}
+
+.nav_a:nth-child(3) {
+  background-color: #ffcd69;
+}
+
+#sect1 {
+  display: block;
+}
+
+#header_img {
+  height: 100%;
+  width: 20rem;
+  display: inline-block;
+  border-radius: 100%;
+  margin: 0% 10%;
+}
+
+#sect1_div1 {
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  bottom: 6rem;
+  width: 60%;
+  font-family: 'Chelsea Market', cursive;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+#sect2 {
+  background: #ddb9a3;
+  color: white;
+  text-align: center;
+  margin: 0 4rem;
+  padding: 0;
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+#sect2 p {
+  margin: 2rem;
+  padding: 2rem;
+}
+
+#sect3 {
+  margin: 2rem;
+}
+
+.body_svgs {
+  height: 15rem;
+  width: 15rem;
+  position: relative;
+  left: 44.5%;
+  margin: 1rem 0;
+}
+
+.sect3_ps {
+  width: 20rem;
+  text-align: center;
+  position: relative;
+  left: 42%;
+  margin: 1rem 0;
+  font-weight: bold;
+}
+
+footer img {
+  width: 100%;
+  height: 25rem;
+  object-fit: cover;
+  object-position: center -8rem;
+}
+
+footer nav {
+  background-color: #f9e7dc;
+}
